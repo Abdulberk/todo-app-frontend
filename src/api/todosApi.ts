@@ -4,7 +4,7 @@ import { Todo} from '../types/Todo';
 
 export const todosApi = createApi({
   reducerPath: 'todosApi',
-  baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_SERVER_URL || "https://mern-todo-app-api-sau7.onrender.com",
+  baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_SERVER_URL || "https://todo-app-frontend.herokuapp.com",
     prepareHeaders: (headers) => {
         const token = localStorage.getItem('token');
         if (token) {

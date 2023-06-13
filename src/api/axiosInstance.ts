@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = process.env.REACT_APP_SERVER_URL || "https://mern-todo-app-api-sau7.onrender.com"
+const baseURL = process.env.REACT_APP_SERVER_URL || "https://todo-app-frontend.herokuapp.com"
 
 
 const instance = axios.create({
